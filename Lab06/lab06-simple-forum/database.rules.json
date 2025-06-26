@@ -1,0 +1,10 @@
+{
+    "rules": {
+        // TODO 8: Set rules to "com_list" node, let it only can be read/write when user is login
+        // Hint : https://www.oxxostudio.tw/articles/201904/firebase-realtime-database-rules.html
+       
+        ".read": "auth != null",
+        ".write": "auth != null"
+        
+    }
+}
